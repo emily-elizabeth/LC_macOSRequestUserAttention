@@ -1,9 +1,24 @@
-Library: 
+Library: macOS Request User Attention
 
-Type: 
+Type: Library
 
 version: 1.0.0
 
 author: Emily-Elizabeth Howard
 
 
+Name: RequestUserAttention
+
+Type: message
+
+Syntax: RequestUserAttention <criticalRequest>
+
+Summary: Starts a user attention request.
+
+Parameters: 
+
+criticalRequest: Boolean whether to bounce the dock icon repeatedly.
+
+Example: RequestUserAttention FALSE
+
+Description: Starts a user attention request.
